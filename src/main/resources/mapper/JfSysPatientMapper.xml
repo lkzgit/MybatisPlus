@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jianfan.mapper.JfSysPatientMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jianfan.entity.JfSysPatient">
+        <id column="id" property="id" />
+        <result column="cn_name" property="cnName" />
+        <result column="age" property="age" />
+        <result column="mobile" property="mobile" />
+        <result column="inpatientno" property="inpatientno" />
+        <result column="openid" property="openid" />
+        <result column="icon" property="icon" />
+        <result column="source" property="source" />
+        <result column="isenabled" property="isenabled" />
+        <result column="idcard" property="idcard" />
+        <result column="followup_state" property="followupState" />
+        <result column="last_flowup_date" property="lastFlowupDate" />
+        <result column="flowup_cycle" property="flowupCycle" />
+    </resultMap>
+
+</mapper>
